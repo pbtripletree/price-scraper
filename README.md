@@ -17,6 +17,13 @@ Once this is finished you'll see a `prices.csv` in the `price-scraper` root.
 Install dependencies `npm install`
 Run tests `npm run test`
 
+Create a .env file in `price-scraper` root with the following variables, you can set these to whatever you like! This defines the min/max timeout parameters for recursively retrying failed network requests.
+
+```
+MIN_TIMEOUT=3750
+MAX_TIMEOUT=60000
+```
+
 ## run
 
 Run `npm run scrape`, follow along with the logs, and view your CSV once finished!
