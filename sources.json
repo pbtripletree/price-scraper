@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://www.brooklinen.com/products/classic-hardcore-sheet-bundle",
+    "selector": "#main-content > section.Product.Product--Bundle.js-product > div.Product__FormWrap > div > span > span.js-price"
+  },
+  {
+    "url": "https://www.brooklinen.com/products/classic-core-sheet-set",
+    "selector": "#main-content > section.Product.js-product > div.Product__FormWrap > div > span > span.js-price"
+  },
+  {
+    "url": "https://buffy.co/products/eucalyptus-sheets",
+    "selector": "#acsbContent > div.ltc__el.ltc__el--f.product-hero > div > div.product-panel > div > h2 > del"
+  },
+  {
+    "url": "https://sheetsgiggles.com/products/eucalyptus-lyocell-sheet-sets-white",
+    "selector": "#product_form_6628079501406 > p > span.money.compare-at-price.igComparePrice"
+  },
+  {
+    "url": "https://www.ettitude.com/products/bamboo-lyocell-sheet-set",
+    "selector": "#ProductSection- > div > div.product-shop-wrapper > div > div.product__metadata > div.prices > div.price-wrapper > span"
+  },
+  {
+    "url": "https://sijohome.com/products/eucalyptus-sheets",
+    "selector": "#shopify-section-product-template > section.Product.Product__Vertical_Gallery.Section--spacingThin.Section--spacingNarrow > div > div.Product__InfoWrapper > div.Product__Info > div > div > div.productMeta__subInfo > div.ProductMeta__PriceList > span > span.crossout > span"
+  }
+]
