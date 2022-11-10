@@ -11,7 +11,10 @@ const scrape = async (
   const elements = extract(pages);
   const cleansed = cleanse(elements);
   prices.push(...cleansed);
-  if (errors.length && timeout <= process.env.MAX_TIMEOUT) {
+  if (
+    errors.length > 0 &&
+    parseInt(timeout) < parseInt(process.env.MAX_TIMEOUT)
+  ) {
     console.log("retrying timed out urls...");
     return await scrape(errors, prices, timeout * 2);
   } else return prices;

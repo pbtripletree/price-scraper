@@ -36,10 +36,20 @@ describe("cleanse", function () {
     const elements = [
       {
         url: "google.com",
-        element: "$95",
+        element: "$95.67",
+      },
+      {
+        url: "yahoo.com",
+        element: "$95.00",
+      },
+      {
+        url: "bing.com",
+        element: "95",
       },
     ];
     const cleansed = cleanse(elements);
-    assert.strictEqual(cleansed[0].value, "95.00");
+    assert.strictEqual(cleansed[0].value, "95.67");
+    assert.strictEqual(cleansed[1].value, "95.00");
+    assert.strictEqual(cleansed[2].value, "95.00");
   });
 });

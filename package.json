@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scrape": "node index.js",
-    "test": "mocha --timeout=30000"
+    "test": "mocha --timeout=30000",
+    "scrape": "node index.js"
   },
   "author": "",
   "license": "ISC",

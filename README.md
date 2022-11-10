@@ -14,15 +14,16 @@ Once this is finished you'll see a `prices.csv` in the `price-scraper` root.
 
 ## setup
 
-Install dependencies `npm install`
-Run tests `npm run test`
-
-Create a .env file in `price-scraper` root with the following variables, you can set these to whatever you like! This defines the min/max timeout parameters for recursively retrying failed network requests.
+Create a .env file in `price-scraper` root with the following variables, you can set these to whatever you like! This defines the min/max timeout parameters for recursively retrying failed network requests. The MIN_TIMEOUT below will likely time out for the first round of requests, which is nice for demonstrating the script's robustness.
 
 ```
 MIN_TIMEOUT=3750
 MAX_TIMEOUT=60000
 ```
+
+Install dependencies `npm install`
+
+Run tests `npm run test`
 
 ## run
 
